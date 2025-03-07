@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mV-DX-NQ6">
+                                <rect key="frame" x="-110.66666666666669" y="68" width="614.33333333333337" height="739"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="614" id="eMu-vp-ino"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PokemonBanner" translatesAutoresizingMaskIntoConstraints="NO" id="kz5-kL-Riv">
+                                <rect key="frame" x="0.0" y="-100" width="393" height="441"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="NameLaunchS" translatesAutoresizingMaskIntoConstraints="NO" id="cfh-nR-urw">
+                                <rect key="frame" x="-8" y="183" width="409" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="3Ve-64-fST"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="psyduckLaunchS" translatesAutoresizingMaskIntoConstraints="NO" id="4et-B8-t8G">
+                                <rect key="frame" x="-366" y="433" width="1125" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="2N2-v4-IEA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4et-B8-t8G" secondAttribute="bottom" constant="85" id="2sL-Zw-BbU"/>
+                            <constraint firstItem="5mV-DX-NQ6" firstAttribute="centerX" secondItem="4et-B8-t8G" secondAttribute="centerX" id="AsR-kN-Yyb"/>
+                            <constraint firstItem="kz5-kL-Riv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-100" id="aVS-n1-Yg2"/>
+                            <constraint firstItem="cfh-nR-urw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-24" id="d8u-kQ-36z"/>
+                            <constraint firstItem="5mV-DX-NQ6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="ePt-Mf-Zbx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5mV-DX-NQ6" secondAttribute="bottom" constant="11" id="ieM-KP-xai"/>
+                            <constraint firstItem="cfh-nR-urw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="jGX-zW-50i"/>
+                            <constraint firstItem="kz5-kL-Riv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lkd-nL-pMr"/>
+                            <constraint firstItem="kz5-kL-Riv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="neU-0f-KfS"/>
+                            <constraint firstItem="5mV-DX-NQ6" firstAttribute="centerX" secondItem="cfh-nR-urw" secondAttribute="centerX" id="q9H-rU-UOF"/>
+                            <constraint firstItem="cfh-nR-urw" firstAttribute="centerX" secondItem="kz5-kL-Riv" secondAttribute="centerX" id="uJ6-Vq-VbQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.238805970149251" y="374.14187643020591"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1080" height="1920"/>
+        <image name="NameLaunchS" width="1024" height="202"/>
+        <image name="PokemonBanner" width="1200" height="441"/>
+        <image name="psyduckLaunchS" width="1125" height="1125"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
